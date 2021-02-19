@@ -58,7 +58,7 @@ class TextFilter extends Component {
         className='filter text-filter form-control'
         type='text'
         style={ style }
-        onChange={ this.filter }
+        onInput={ this.filter }
         placeholder={ placeholder || `Enter ${columnName}...` }
         value={ this.state.value } />
     );
